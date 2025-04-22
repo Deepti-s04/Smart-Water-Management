@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovative Water Management System</title>
+    <link rel="stylesheet" href="pr.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Innovative Water Management System 🌊</h1>
+            <p class="intro">Efficient water level monitoring and management for a sustainable future.</p>
+        </div>
+    </header>
+
+    <!-- Section for Real-time Water Level -->
+    <section class="water-level">
+        <div class="container">
+            <h2>Water Level Monitor</h2>
+            <p>Adjust the water level using the slider below:</p>
+            <input type="range" id="water-level-slider" min="0" max="100" value="50">
+            <p id="water-level">Current Water Level: 50%</p>
+        </div>
+    </section>
+
+    <!-- Section for Prediction Model -->
+    <section class="prediction-model">
+        <div class="container">
+            <h2>Real-Time Prediction</h2>
+            <p>Predicting future water usage patterns with machine learning models based on historical and real-time data.</p>
+            <button id="predict-button">Get Prediction</button>
+            <p id="prediction-result">Prediction will appear here...</p>
+        </div>
+    </section>
+
+    <!-- Section for Automatic Motor Control -->
+    <section class="motor-control">
+        <div class="container">
+            <h2>Motor Control</h2>
+            <p>Automatic motor control based on water level:</p>
+            <div id="motor-status">Motor Status: Off</div>
+            <button id="toggle-motor-button">Turn Motor On</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Innovative Water Management System. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="pr.js"></script>
+</body>
+</html>
